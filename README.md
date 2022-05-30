@@ -16,6 +16,12 @@ Benutzt eure Lösung zu der letzten Aufgabe und baut ein Frontend für eure user
 3. Posts ansehen
 - Falls der User eingeloggt ist, sollen hier alle Posts des dazugehörigen Usernamens angezeigt werden.
 
+
+
+### Beispiel:
+
+![alt text](screenshot.png)
+
 ### Tips: 
 Einen Cookie könnt ihr aus dem Backend so senden:
 
