@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <h3>REGISTER</h3>
+    <form onsubmit="return register(event);">
+        Username:
+        <input id="register-username">
+        <br />
+        Password:
+        <input id="register-password" type="password">
+        <br />
+        <button type="submit">register</button>
+    </form>
+
+    <h3>LOGIN</h3>
+    <form class="login-form" onsubmit="return login(event);">
+        Username:
+        <input id="login-username">
+        <br />
+        Password:
+        <input id="login-password" type="password">
+        <br />
+        <button type="submit">login</button>
+    </form>
+    
+    <form onsubmit="return logout(event);">
+        <button type="submit">logout</button>
+    </form>
+    <br />
+    
+    <button onclick="getPosts()">GET POSTS</button>
+    <br />
+    <div id="posts"> </div>
+</body>
+
+</html>
