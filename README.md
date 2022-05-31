@@ -23,6 +23,8 @@ Benutzt eure Lösung zu der letzten Aufgabe und baut ein Frontend für eure user
 ![alt text](screenshot.png)
 
 ### Tips: 
+Im public Ordner findet ihr zwei "starter"-Dateien, die euch helfen sollen, einen Einstieg zu finden. Wenn ihr sie verwenden wollt, dann solltet ihr sie natürlich umbennen :)
+
 Einen Cookie könnt ihr aus dem Backend so senden:
 
     res.cookie("token", accessToken, { httpOnly:  true, sameSite:  "lax" }).send("cookie set");
